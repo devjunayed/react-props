@@ -1,7 +1,13 @@
+import Profile from "./components/Profile";
+import Gallery from "./ExtractComponent/Gallery";
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Profile />
+      <h1>Extract a component</h1>
+      <Gallery />
+    </div>
   )
 }
 
